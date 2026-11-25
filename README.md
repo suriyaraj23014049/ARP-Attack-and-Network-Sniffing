@@ -25,7 +25,8 @@ Boot kali and Windows7 virtual machines.
 
 In windows 7 give the command arp -a
 ### OUTPUT:
-![img](img/image1.png)
+<img width="2169" height="725" alt="image" src="https://github.com/user-attachments/assets/eb175a5e-1aee-48a1-a61f-076fdae186a3" />
+
 
 
 From kali linux issue the command :
