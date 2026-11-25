@@ -22,41 +22,59 @@ Open terminal and try execute some kali linux commands
 ## ARP Attacks:  
 ARP spoofing: A hacker sends fake ARP packets that link an attacker's MAC address with an IP of a computer already on the LAN. 
 Boot kali and Windows7 virtual machines.
-
 In windows 7 give the command arp -a
-### OUTPUT:
-![img](img/image1.png)
+## OUTPUT:
 
+![Ettercap Host List and MITM](./op-img/ettercap.png)
+
+<img width="859" height="543" alt="image" src="https://github.com/user-attachments/assets/b9ffe5aa-0a5a-43a1-bcab-48c190d2771c" />
 
 From kali linux issue the command :
-```
 sudo arpspoof -i eth0 -t <target system> <gateway>
-```
-### OUTPUT:
-![img](img/image2.png)
-![img](img/image3.png)
+
+## OUTPUT:
 
 
-## dsniff:
+<img width="837" height="501" alt="image" src="https://github.com/user-attachments/assets/ba7a6528-f104-457b-99d9-0de5b67b3cef" />
+
+<img width="811" height="486" alt="image" src="https://github.com/user-attachments/assets/e00302c6-6e68-4173-a54d-801667c4034f" />
+=======
+![Ettercap Host List and MITM2](./op-img/ettercap2.png)
+
+![Ettercap Host List and MITM3](./op-img/ettercap3.png)
+ dsniff:
+
+
+>>>>>>> 0f07450 (add ettercap and wireshark screenshots to README)
 
 In Metasploit open the ftp console as below. Also you can try other ftp websites ftp.vim.org
-### OUTPUT:
-![img](img/image4.png)
+## OUTPUT:
+
+
+<img width="849" height="586" alt="image" src="https://github.com/user-attachments/assets/20e90008-dc91-4187-b429-126139efcdda" />
+=======
+![Wireshark Interface](./op-img/wireshark.png)
+>>>>>>> 0f07450 (add ettercap and wireshark screenshots to README)
 
 
 
 In Kali issue the following commands:
-```
 sudo dsnifff
-```
-### OUTPUT:
-![img](img/image5.png)
+
+## OUTPUT:
 
 
-Invoke the wireshark and examine the various menus and controls of the tool:
-### OUTPUT:
-![img](img/image6.png)
+<img width="1634" height="684" alt="image" src="https://github.com/user-attachments/assets/e3914606-2bef-4606-bb7e-42a5162e32d2" />
+=======
+![Wireshark Interface2](./op-img/wireshark2.png)
+>>>>>>> 0f07450 (add ettercap and wireshark screenshots to README)
+
+
+Invoke the wireshark and examine the various menus  and controls of the tool:
 
 
 ## RESULT:
 The kali linux tools for ARP Attack and Network Sniffing were identified successfully
+
+
+
